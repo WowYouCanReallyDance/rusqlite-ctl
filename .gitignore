@@ -1,0 +1,56 @@
+# Rust项目核心
+/target/
+**/target/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# macOS系统特有
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# 开发环境
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.ipr
+*.iws
+rust-project.json
+*~
+*.swp
+*.swo
+*.swn
+*.un~
+
+# 日志与测试
+*.log
+/coverage/
+*.profraw
+/perf/
+
+# 环境文件
+.env
+.env.local
+.env.*.local
+*.debug
